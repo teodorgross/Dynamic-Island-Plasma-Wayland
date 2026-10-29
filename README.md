@@ -22,7 +22,7 @@ mechanism — the surface is a layer-shell one, and X11 has nothing to put it on
   <a href="https://ko-fi.com/teodorgross"><img src="https://img.shields.io/badge/Ko--fi-teodorgross-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white&labelColor=000000" height="44" alt="Support me on Ko-fi"></a>
 </p>
 
-**Interface languages:** English · Deutsch · 简体中文 · 日本語
+**Interface languages:** Русский · English · Deutsch · 简体中文 · 日本語
 
 ---
 
@@ -543,11 +543,11 @@ field as dots either way.
 
 ## Languages
 
-**Interface:** English · Deutsch · 简体中文 · 日本語
+**Interface:** Русский · English · Deutsch · 简体中文 · 日本語
 
 The island's own words — the reply field, the volume label, the buttons on a
 file operation — follow the **Language** setting on the *Island* page:
-*Follow the desktop* by default, or one of the four by hand.
+*Follow the desktop* by default, or one of the five by hand.
 
 The settings pages themselves belong to the panel widget, which is a KDE
 package: it follows the desktop language (System Settings → Region &

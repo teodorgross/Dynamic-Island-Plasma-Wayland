@@ -304,6 +304,7 @@ KCM.SimpleKCM {
                 { tag: "auto", label: i18n("Follow the desktop") },
                 { tag: "en", label: "English" },
                 { tag: "de", label: "Deutsch" },
+                { tag: "ru", label: "Русский" },
                 { tag: "zh", label: "简体中文" },
                 { tag: "ja", label: "日本語" }
             ]

@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.dynamicisland.history\n"
+"Language: ru\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "%1 notification in the history"
+msgid_plural "%1 notifications in the history"
+msgstr[0] "%1 уведомление в истории"
+msgstr[1] "%1 уведомления в истории"
+msgstr[2] "%1 уведомлений в истории"
+
+msgid "Nothing in the history"
+msgstr "В истории пока ничего нет"
+
+msgid "History"
+msgstr "История"
+
+msgid "Clear history"
+msgstr "Очистить историю"
+
+msgid "Notifications stay here after the island has taken them away."
+msgstr "Уведомления остаются здесь после того, как остров скрывает их."
+
+msgid "just now"
+msgstr "только что"
+
+msgid "%1 minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "%1 минуту назад"
+msgstr[1] "%1 минуты назад"
+msgstr[2] "%1 минут назад"
+
+msgid "Icon:"
+msgstr "Значок:"
+
+msgid "Icon name or path"
+msgstr "Имя значка или путь"
+
+msgid "Choose…"
+msgstr "Выбрать…"
+
+msgid "A name from the icon theme (notifications, for example) or the path to an image file."
+msgstr "Название из темы значков (например, notifications) или путь к файлу изображения."
+
+msgid "History:"
+msgstr "История:"
+
+msgid "Mark the icon while there is something in the history"
+msgstr "Отмечать значок, когда в истории есть записи"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "The island is not running. Changes here are handed to it, so they would go nowhere: systemctl --user start dynamic-island"
+msgstr "Остров не запущен. Изменения здесь передаются ему, но не будут применены. Запустите: systemctl --user start dynamic-island"
+
+msgid "Quiet"
+msgstr "Тихий режим"
+
+msgid "Do not disturb:"
+msgstr "Не беспокоить:"
+
+msgid "Drop everything but critical notifications"
+msgstr "Скрывать все уведомления, кроме критических"
+
+msgid "Stop the countdown while the pointer is on the island"
+msgstr "Останавливать таймер, пока указатель находится над островом"
+
+msgid "Critical notifications stay until dismissed"
+msgstr "Критические уведомления остаются на экране, пока их не закроют"
+
+msgid "How long a card stays"
+msgstr "Сколько показывать карточку"
+
+msgid " ms"
+msgstr " мс"
+
+msgid "Default:"
+msgstr "По умолчанию:"
+
+msgid "Low urgency:"
+msgstr "Низкий приоритет:"
+
+msgid "Volume and brightness:"
+msgstr "Громкость и яркость:"
+
+msgid "Now playing:"
+msgstr "Сейчас играет:"
+
+msgid "What the island takes over"
+msgstr "Что отображать в острове"
+
+msgid "Show:"
+msgstr "Показывать:"
+
+msgid "File operations, with pause and cancel"
+msgstr "Операции с файлами, с кнопками паузы и отмены"
+
+msgid "Volume, brightness and the other on-screen displays"
+msgstr "Громкость, яркость и другие экранные индикаторы"
+
+msgid "The track that starts playing, with its buttons"
+msgstr "Текущий трек и кнопки управления"
+
+msgid "Play the sounds applications ask for"
+msgstr "Воспроизводить звуки, которые запрашивают приложения"
+
+msgid "Stack and history"
+msgstr "Стек и история"
+
+msgid "Cards behind the front one:"
+msgstr "Карточек за передней:"
+
+msgid "Kept in the history:"
+msgstr "Хранить в истории:"
+
+msgid "Where it sits"
+msgstr "Расположение"
+
+msgid " px"
+msgstr " пикс."
+
+msgid "Distance from the top edge:"
+msgstr "Отступ от верхнего края:"
+
+msgid "0 keeps it flush with the bezel, which is where it belongs."
+msgstr "0 прижимает остров к рамке экрана — так и задумано."
+
+msgid "Screen:"
+msgstr "Экран:"
+
+msgid "\"active\" follows the pointer, otherwise a connector name such as DP-1."
+msgstr "«active» следует за указателем; иначе укажите имя разъёма, например DP-1."
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Width when open:"
+msgstr "Ширина в раскрытом состоянии:"
+
+msgid "Tallest a card may get:"
+msgstr "Максимальная высота карточки:"
+
+msgid "Corner radius:"
+msgstr "Радиус углов:"
+
+msgid "Height of the capsule:"
+msgstr "Высота капсулы:"
+
+msgid "Colour"
+msgstr "Цвет"
+
+msgid "Glow:"
+msgstr "Свечение:"
+
+msgid "Take the colour from the application icon"
+msgstr "Брать цвет из значка приложения"
+
+msgid "Fallback colour:"
+msgstr "Запасной цвет:"
+
+msgid "Strength:"
+msgstr "Интенсивность:"
+
+msgid "Hairline border:"
+msgstr "Тонкая рамка:"
+
+msgid "Never shown"
+msgstr "Никогда не показывать"
+
+msgid "Applications:"
+msgstr "Приложения:"
+
+msgid "One per line — the name it sends, or its desktop entry."
+msgstr "По одному на строку — имя, которое передаёт приложение, или его запись рабочего стола."
+
+msgid "New feed"
+msgstr "Новая лента"
+
+msgid "New endpoint"
+msgstr "Новая конечная точка"
+
+msgid "Webhook"
+msgstr "Вебхук"
+
+msgid "The island is not running. A source added here is handed to it, so it would go nowhere: systemctl --user start dynamic-island"
+msgstr "Остров не запущен. Добавленный здесь источник передаётся ему, но работать не будет. Запустите: systemctl --user start dynamic-island"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "RSS or Atom feed"
+msgstr "Лента RSS или Atom"
+
+msgid "JSON endpoint"
+msgstr "Конечная точка JSON"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Nothing selected. Add a feed, a JSON endpoint, or a webhook other machines can send notifications to."
+msgstr "Ничего не выбрано. Добавьте ленту, конечную точку JSON или вебхук, через который другие устройства смогут отправлять уведомления."
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Shown as"
+msgstr "Отображать как"
+
+msgid "the name above"
+msgstr "название выше"
+
+msgid "Icon"
+msgstr "Значок"
+
+msgid "theme name or path"
+msgstr "название темы или путь"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Checked every"
+msgstr "Проверять каждые"
+
+msgid " s"
+msgstr " с"
+
+msgid "At most per round"
+msgstr "Максимум за один опрос"
+
+msgid "Announce what is already there"
+msgstr "Показывать уже имеющиеся записи"
+
+msgid "Off keeps the first round quiet, so a restart does not replay old entries."
+msgstr "Если выключено, первый опрос не показывает старые записи повторно после перезапуска."
+
+msgid "Only headlines matching"
+msgstr "Только заголовки, соответствующие"
+
+msgid "a regular expression, empty for all"
+msgstr "регулярное выражение; оставьте пустым, чтобы показывать все"
+
+msgid "Where the list is in the answer"
+msgstr "Где находится список в ответе"
+
+msgid "Fields"
+msgstr "Поля"
+
+msgid "island field: path in the answer — one per line"
+msgstr "поле острова: путь в ответе — по одному на строку"
+
+msgid "Request headers"
+msgstr "Заголовки запроса"
+
+msgid "header: value — one per line"
+msgstr "заголовок: значение — по одному на строку"
+
+msgid "Listens on"
+msgstr "Слушать на адресе"
+
+msgid "127.0.0.1 is this machine only. 0.0.0.0 opens it to the network, and the island then refuses to start without a token."
+msgstr "127.0.0.1 доступен только на этом компьютере. 0.0.0.0 открывает доступ из сети; в этом случае остров не запустится без токена."
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Token"
+msgstr "Токен"
+
+msgid "empty means no authorisation"
+msgstr "оставьте пустым, чтобы не требовать авторизацию"
+
+msgid "Generate"
+msgstr "Сгенерировать"
+
+msgid "The token is kept in config.json, which is written for you alone (mode 600). To keep it out of the file entirely, set \"tokenFile\" or \"tokenEnv\" there instead — see the README."
+msgstr "Токен хранится в config.json, доступном только вам (права 600). Чтобы не хранить его в этом файле, задайте там «tokenFile» или «tokenEnv» — подробности в README."
+
+msgid "Buttons may run commands"
+msgstr "Кнопки могут выполнять команды"
+
+msgid "Off is the safe setting: whoever can reach this port could otherwise run anything as you."
+msgstr "Безопаснее оставить выключенным: любой, кто получит доступ к этому порту, иначе сможет запускать команды от вашего имени."
+
+msgid "Anything that can fetch a URL can put a card up:"
+msgstr "Любое устройство, способное обратиться к URL, может создать карточку:"
+
+msgid "<this-machine>"
+msgstr "<этот-компьютер>"
+
+msgid "Copy"
+msgstr "Копировать"
+
+msgid "The last part of the path is what the card says it came from — /notify/backup, /notify/doorbell, one per service. POST with a JSON body works the same way; GET / on the port prints the whole format."
+msgstr "Последняя часть пути указывает, откуда пришла карточка: /notify/backup, /notify/doorbell — отдельный путь для каждой службы. POST с JSON-телом работает так же; GET / на этом порту выводит полный формат."
+
+msgid "Panel icon"
+msgstr "Значок панели"
+
+msgid "Island"
+msgstr "Остров"
+
+msgid "Sources"
+msgstr "Источники"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Island speaks:"
+msgstr "Язык острова:"
+
+msgid "Follow the desktop"
+msgstr "Как в системе"
+
+msgid "This is for the island's own words — the reply field, the volume label, the buttons on a file operation. These settings pages belong to the panel widget and follow the desktop language instead (System Settings → Region & Language)."
+msgstr "Этот параметр задаёт язык собственных надписей острова — поля ответа, подписи громкости и кнопок операций с файлами. Страницы настроек принадлежат виджету панели и используют язык рабочего стола (Параметры системы → Регион и язык)."
+
+msgid "Made of:"
+msgstr "Оформление:"
+
+msgid "AMOLED black"
+msgstr "Чёрный AMOLED"
+
+msgid "Dark"
+msgstr "Тёмная"
+
+msgid "Light"
+msgstr "Светлая"
+
+msgid "Follow the colour scheme"
+msgstr "Как в цветовой схеме"
+
+msgid "AMOLED is true black, so on an OLED panel those pixels are off. Dark is a grey body for panels where black smears; Light is dark type on white; the last one takes the desktop's own colours."
+msgstr "AMOLED — это настоящий чёрный: на OLED-экране такие пиксели выключены. «Тёмная» использует серый фон, если чёрный выглядит размытым; «Светлая» — тёмный текст на белом; последний вариант использует цвета рабочего стола."
+
+msgid "…but not while the player's own window has the focus"
+msgstr "…но не тогда, когда окно самого плеера активно"

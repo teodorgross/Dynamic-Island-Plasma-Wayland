@@ -33,6 +33,14 @@ TABLE = {
         "brightness": "Helligkeit", "keyboard": "Tastaturbeleuchtung",
         "media": "Jetzt läuft", "on": "An", "off": "Aus",
     },
+    "ru": {
+        "reply": "Ответить…", "send": "Отправить",
+        "pause": "Приостановить", "resume": "Продолжить", "cancel": "Отменить",
+        "job": "Операция с файлами",
+        "volume": "Громкость", "microphone": "Микрофон",
+        "brightness": "Яркость", "keyboard": "Подсветка клавиатуры",
+        "media": "Сейчас играет", "on": "Вкл.", "off": "Выкл.",
+    },
     "zh": {
         "reply": "回复…", "send": "发送",
         "pause": "暂停", "resume": "继续", "cancel": "取消",
